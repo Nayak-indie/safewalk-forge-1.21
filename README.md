@@ -1,33 +1,66 @@
+<div align="center">
+
 # SafeWalk Forge 1.21.1
 
-SafeWalk is a client-side Minecraft Forge mod for 1.21.1. It keeps the classic SafeWalk behavior from the 1.8.9 era while using modern Forge APIs, Mojang mappings, and vanilla client interactions.
+![SafeWalk animated header](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=54C6EB&center=true&vCenter=true&width=720&lines=Modern+Forge+1.21.1+SafeWalk+rewrite;Client-side+edge+safety+for+bridging;Classic+1.8.9+behavior%2C+modern+APIs)
 
-The mod helps prevent walking off block edges and can optionally assist bridge placement when the player is holding blocks. It does not add server-side content, custom packets, or a required server mod.
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.1-62B47A?style=for-the-badge&logo=codementor&logoColor=white)](#requirements)
+[![Forge](https://img.shields.io/badge/Forge-52.x-F16436?style=for-the-badge&logo=curseforge&logoColor=white)](#requirements)
+[![Java](https://img.shields.io/badge/Java-21-007396?style=for-the-badge&logo=openjdk&logoColor=white)](#requirements)
+[![License](https://img.shields.io/badge/License-MIT-9D7CD8?style=for-the-badge)](LICENSE)
 
-## Documentation
+**A clean, client-side SafeWalk rewrite for modern Forge.**  
+Built for edge control, optional bridge placement assistance, and compatibility with normal vanilla client interactions.
 
-All markdown files in this repository:
+</div>
 
-| File | Purpose |
+---
+
+## Overview
+
+SafeWalk helps prevent walking off block edges in Minecraft `1.21.1`. It ports the core feel of the classic `1.8.9` SafeWalk mod into a modern Forge codebase using Mojang mappings, Forge client events, key mappings, and vanilla `useItemOn` placement.
+
+It is designed as a **client-only** mod:
+
+- No server-side installation required.
+- No custom networking protocol.
+- No extra blocks, items, or rendering systems.
+- Placement assistance uses normal vanilla right-click interaction behavior.
+
+> Use movement or placement assistance responsibly and check server rules before using it on multiplayer servers.
+
+## Documentation Hub
+
+GitHub shows `README.md` first, so this section works as the landing index for every markdown file in the repository.
+
+| Status | File | What it covers |
+| --- | --- | --- |
+| Main | [README.md](README.md) | Project overview, features, commands, build steps, and repo layout. |
+| Research | [docs/original-mod-analysis.md](docs/original-mod-analysis.md) | Behavior notes from inspecting the original SafeWalk `1.8.9` jar. |
+| Porting | [docs/porting-map.md](docs/porting-map.md) | Mapping reference from legacy Forge/Minecraft APIs to the `1.21.1` rewrite. |
+
+## Feature Set
+
+| Area | Details |
 | --- | --- |
-| [README.md](README.md) | Main project overview, usage, build, and release notes. |
-| [docs/original-mod-analysis.md](docs/original-mod-analysis.md) | Notes from inspecting the original SafeWalk 1.8.9 jar and its behavior. |
-| [docs/porting-map.md](docs/porting-map.md) | Mapping reference from old 1.8.9 Forge concepts to the 1.21.1 Forge rewrite. |
+| Toggle | Default keybind is `V`. |
+| Commands | `/safewalk`, `/sw`, `/sb`, `/speedbridge`. |
+| Modes | `SNEAK`, `BREEZILY`, and `SCAFFOLD`. |
+| Placement | Optional block placement assistance with vanilla client interaction. |
+| Safety toggles | Optional disable-on-jump and disable-on-fall behavior. |
+| Chat | Optional local status messages. |
+| Multiplayer fit | `displayTest="IGNORE_SERVER_VERSION"` for client-only use. |
 
-## Features
+## Modes
 
-- Toggleable SafeWalk with the default keybind `V`.
-- Client commands: `/safewalk`, `/sw`, `/sb`, and `/speedbridge`.
-- Three movement modes:
-  - `SNEAK`: holds sneak when the player reaches an edge.
-  - `BREEZILY`: slows horizontal movement near edges and can place at the crosshair.
-  - `SCAFFOLD`: attempts vanilla block placement against the nearest neighbor block below the player.
-- Optional auto-placement using the normal client `useItemOn` interaction.
-- Optional local chat status messages.
-- Optional disable-on-jump and disable-on-fall safety toggles.
-- Client-only Forge setup with `displayTest="IGNORE_SERVER_VERSION"` for multiplayer clients.
+| Mode | Behavior | Best fit |
+| --- | --- | --- |
+| `SNEAK` | Holds sneak when the player reaches an edge. | Conservative edge safety. |
+| `BREEZILY` | Slows horizontal movement near edges and can place at the crosshair. | Controlled bridge movement. |
+| `SCAFFOLD` | Attempts to place against the nearest neighbor block below the player. | Faster placement assistance while preserving vanilla interaction flow. |
 
-## Commands
+<details>
+<summary><strong>Command Reference</strong></summary>
 
 | Command | Action |
 | --- | --- |
@@ -42,12 +75,19 @@ All markdown files in this repository:
 | `/sw fall on/off` | Toggle disable-on-fall behavior. |
 | `/sw jump on/off` | Toggle disable-on-jump behavior. |
 
-## Requirements
+</details>
 
-- Minecraft `1.21.1`
-- Minecraft Forge `52.x`
-- Java `21`
-- Gradle through the ForgeGradle setup in this repository
+<details>
+<summary><strong>Requirements</strong></summary>
+
+| Requirement | Version |
+| --- | --- |
+| Minecraft | `1.21.1` |
+| Forge | `52.x` |
+| Java | `21` |
+| Build system | Gradle / ForgeGradle |
+
+</details>
 
 ## Build
 
@@ -57,7 +97,7 @@ From the repository root:
 .\gradlew build
 ```
 
-The built jar is written to:
+Built jars are written to:
 
 ```text
 build/libs/
@@ -80,12 +120,19 @@ docs/
   porting-map.md
 ```
 
-## Notes
+## Technical Notes
 
-This is a modern Forge rewrite inspired by the original 1.8.9 SafeWalk behavior. The repository owner is Nayak Indie.
+- The mod checks whether the local player is over an edge by inspecting the block below the player.
+- Forced sneak is released when the player leaves the edge state, opens a screen, disables the mod, or manually sneaks.
+- Auto-place only runs when the held main-hand item is a `BlockItem`.
+- Scaffold placement looks for a nearby neighbor block and uses a constructed `BlockHitResult` for normal placement.
+- Config is stored through a Forge client config spec.
 
-Use this mod responsibly and check server rules before using movement or placement assistance on multiplayer servers.
+## Ownership
+
+Maintained by **Nayak Indie**.  
+This is a modern Forge rewrite inspired by the original `1.8.9` SafeWalk behavior.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE).
+Released under the [MIT License](LICENSE).
