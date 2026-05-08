@@ -1,0 +1,267 @@
+[23:07:35] [main/INFO]: Writing debug log file accesstransform.log
+[23:07:35] [main/INFO]: Access Transformer processor running version 8.2.14
+[23:07:35] [main/INFO]: Command line arguments [--inJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14\forge-1.21.1-52.1.14-injected.jar, --outJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg]
+[23:07:35] [main/INFO]: Reading from C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14\forge-1.21.1-52.1.14-injected.jar
+[23:07:35] [main/INFO]: Writing to C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+[23:07:35] [main/INFO]: Transformer file C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:35] [main/WARN]: Found existing output jar C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, overwriting
+[23:07:36] [main/DEBUG]: Loading access transformer parent_at.cfg from path C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:36] [main/DEBUG]: Loaded access transformer parent_at.cfg from path C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:36] [main/DEBUG]: Loaded access transformer file C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:36] [main/DEBUG]: Skipping Lmcp/client/Start;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/versions/mcp/MCPVersion;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/versions/forge/ForgeVersion;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/timings/TimeTracker;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/timings/ForgeTimings;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/package-info;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionTypes;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionType;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionNode;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionNode$PermissionResolver;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionDynamicContextKey;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/nodes/PermissionDynamicContext;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/handler/IPermissionHandlerFactory;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/handler/IPermissionHandler;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/handler/DefaultPermissionHandler;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/exceptions/UnregisteredPermissionException;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/events/PermissionGatherEvent;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/events/PermissionGatherEvent$Nodes;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/events/PermissionGatherEvent$Handler;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/permission/PermissionAPI;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/loading/ServerModLoader;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/console/TerminalHandler;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/console/ConsoleCommandCompleter;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/package-info;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand$TrackResultsEntity;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand$TrackResultsBlockEntity;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand$TrackResults;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand$StartTrackingCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TrackCommand$ResetTrackingCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TextComponentHelper;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TagsCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/TPSCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ModListCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ModIdArgument;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/GenerateCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ForgeCommand;
+[23:07:36] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/EnumArgument;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/EnumArgument$Info;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/EnumArgument$Info$Template;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/EntityCommand;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/EntityCommand$EntityListCommand;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/DimensionsCommand;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ConfigCommand;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ConfigCommand$ShowFile;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/CommandHelper;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/command/ChunkGenWorker;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/ServerLifecycleHooks;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/server/LanguageHook;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/resource/package-info;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/resource/ResourcePackLoader;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/resource/DelegatingPackResources;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/resource/DelegatingPackResources$Supplier;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/tags/ITagManager;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/tags/ITag;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/tags/IReverseTag;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/OrHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/NotHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/ICustomHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/HolderSetType;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/CompositeHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/AnyHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/holdersets/AndHolderSet;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegistryObject;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegistryObject$1;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegistryManager;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegistryBuilder;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegisterEvent;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/RegisterEvent$RegisterHelper;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ObjectHolderRegistry;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ObjectHolderRegistry$VanillaObjectHolderData;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ObjectHolderRef;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ObjectHolder;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NewRegistryEvent;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NewRegistryEvent$RegistryHolder;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NewRegistryEvent$RegistryData;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NamespacedWrapper;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NamespacedWrapper$1;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/NamespacedDefaultedWrapper;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/MissingMappingsEvent;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/MissingMappingsEvent$Mapping;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/MissingMappingsEvent$Action;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IdMappingEvent;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IdMappingEvent$ModRemapping;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IdMappingEvent$IdRemapping;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ILockableRegistry;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistryModifiable;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistryInternal;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$ValidateCallback;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$SlaveKey;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$MissingFactory;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$CreateCallback;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$ClearCallback;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$BakeCallback;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/IForgeRegistry$AddCallback;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$WrapperFactory;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$PoiTypeCallbacks;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$ItemCallbacks;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$ClearableObjectIntIdentityMap;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$BlockCallbacks;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$BlockCallbacks$1;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$AttributeCallbacks;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/GameData$1;
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ForgeRegistryTagManager;
+[23:07:37] [main/INFO]: Writing debug log file accesstransform.log
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ForgeRegistryTag;
+[23:07:37] [main/INFO]: Access Transformer processor running version 8.2.14
+[23:07:37] [main/INFO]: Command line arguments [--inJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14\forge-1.21.1-52.1.14-injected.jar, --outJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg]
+[23:07:37] [main/INFO]: Reading from C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14\forge-1.21.1-52.1.14-injected.jar
+[23:07:37] [main/INFO]: Writing to C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+[23:07:37] [main/INFO]: Transformer file C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:37] [main/WARN]: Found existing output jar C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, overwriting
+[23:07:37] [main/DEBUG]: Skipping Lnet/minecraftforge/registries/ForgeRegistry;
+[23:07:37] [main/DEBUG]: Loading access transformer parent_at.cfg from path C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:37] [main/ERROR]: Reading /net/minecraftforge/registries/ForgeRegistry.class
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:145) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+[23:07:37] [main/ERROR]: Reading JAR
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:145) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+[23:07:37] [main/DEBUG]: Loaded access transformer parent_at.cfg from path C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:37] [main/DEBUG]: Loaded access transformer file C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg
+[23:07:37] [main/DEBUG]: Skipping Lmcp/client/Start;
+[23:07:37] [main/ERROR]: Writing JAR
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:145) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+[23:07:37] [main/ERROR]: Copying /data/minecraft/recipe/light_gray_banner.json
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:153) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+[23:07:37] [main/ERROR]: Reading JAR
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:153) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+[23:07:37] [main/ERROR]: Writing JAR
+java.nio.file.NoSuchFileException: C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.isSameFile(Unknown Source) ~[?:?]
+	at java.nio.file.Files.isSameFile(Unknown Source) ~[?:?]
+	at jdk.nio.zipfs.ZipPath.copy(Unknown Source) ~[jdk.zipfs:?]
+	at jdk.nio.zipfs.ZipFileSystemProvider.copy(Unknown Source) ~[jdk.zipfs:?]
+	at java.nio.file.Files.copy(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.lambda$processJar$3(TransformerProcessor.java:153) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(Unknown Source) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(Unknown Source) ~[?:?]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.processJar(TransformerProcessor.java:129) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]
+	at net.minecraftforge.accesstransformer.TransformerProcessor.main(TransformerProcessor.java:96) ~[accesstransformers-8.2.14-fatjar.jar:8.2.14]

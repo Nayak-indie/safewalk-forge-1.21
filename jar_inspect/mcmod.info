@@ -1,0 +1,8 @@
+[{
+    "modid": "safewalk",
+    "name": "SafeWalk",
+    "description": "A mod to automatically sneak on the edge of a block. /safewalk",
+    "version": "2.0.0",
+    "mcversion": "1.8.9",
+    "authorList": ["Ben"]
+}]
