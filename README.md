@@ -31,8 +31,6 @@ It is designed as a **client-only** mod:
 
 ## Documentation Hub
 
-GitHub shows `README.md` first, so this section works as the landing index for every markdown file in the repository.
-
 | Status | File | What it covers |
 | --- | --- | --- |
 | Main | [README.md](README.md) | Project overview, features, commands, build steps, and repo layout. |
