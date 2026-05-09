@@ -1,8 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: safewalk
-Specification-Vendor: Ben, ported rewrite
-Specification-Version: 1
-Implementation-Title: safewalk-forge-1.21
-Implementation-Version: 3.0.0
-Implementation-Vendor: Ben, ported rewrite
-

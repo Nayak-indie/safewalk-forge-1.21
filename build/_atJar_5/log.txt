@@ -1,7 +1,0 @@
-Java Launcher: C:\Program Files\Android\Android Studio\jbr\bin\java.exe
-Arguments: '--inJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14\forge-1.21.1-52.1.14-injected.jar, --outJar, C:\Users\Vinayak\.gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.21.1-52.1.14_mapped_official_1.21.1\forge-1.21.1-52.1.14_mapped_official_1.21.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5\parent_at.cfg'
-Classpath:
- - C:\Users\Vinayak\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.14\accesstransformers-8.2.14-fatjar.jar
-Working directory: C:\Users\Vinayak\Downloads\safewalk_1.21\build\_atJar_5
-Main class: net.minecraftforge.accesstransformer.TransformerProcessor
-====================================
